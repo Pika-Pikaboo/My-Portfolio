@@ -1,3 +1,44 @@
+:root {
+    --gap: 2.5rem;
+}
+
+.marquee {
+    display: flex;
+    align-items: center;
+    gap: var(--gap);
+    width: 600px;
+    margin: auto;
+    padding: 15px 0;
+    overflow: hidden;
+    user-select: none;
+    border-top: 1px solid dodgerblue;
+    border-bottom: 1px solid dodgerblue;
+}
+
+.dev-icons {
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-around;
+    min-width: 100%;
+    gap: var(--gap);
+    animation: scroll 12s linear infinite;
+}
+
+.dev-icons img {
+    width: 65px;
+    height: 65px;
+}
+
+@keyframes scroll {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(calc(-100% - var(--gap)));
+    }
+}
+
 .experience__container {
     display: grid;
     grid-template-columns: 1fr 1fr;
