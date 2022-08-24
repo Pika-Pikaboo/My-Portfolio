@@ -6,13 +6,20 @@
     display: flex;
     align-items: center;
     gap: var(--gap);
-    width: 600px;
-    margin: auto;
+    max-width: 600px;
+    margin: 3rem auto;
     padding: 15px 0;
     overflow: hidden;
     user-select: none;
-    border-top: 1px solid dodgerblue;
-    border-bottom: 1px solid dodgerblue;
+    border: 1px solid transparent;
+    transition: var(--transition);
+    background-color: var(--color-bg-variant);
+}
+
+.marquee:hover {
+    background-color: transparent;
+    border-color: var(--color-primary-variant);
+    cursor: default;
 }
 
 .dev-icons {
