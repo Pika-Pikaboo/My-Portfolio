@@ -14,6 +14,10 @@ import vue from "../assets/vue.png";
 import mongodb from "../assets/mongodb.png";
 import node from "../assets/node.png";
 import flutter from "../assets/flutter.png";
+import next from "../assets/next.png";
+import python from "../assets/python.png";
+import redux from "../assets/redux.png";
+import graphql from "../assets/graphql.png";
 
 function Experience() {
   return (
@@ -138,12 +142,16 @@ function Experience() {
           <img src={bootstrap} alt="Bootstrap" />
           <img src={tailwind} alt="Tailwind" />
           <img src={react} alt="React" />
+          <img src={next} alt="Next.js" />
           <img src={material} alt="Material" />
-          <img src={express} alt="express" />
+          <img src={redux} alt="Redux" />
+          <img src={graphql} alt="GraphQL" />
           <img src={vue} alt="Vue" />
           <img src={mongodb} alt="MongoDB" />
           <img src={node} alt="Node" />
+          <img src={express} alt="express" />
           <img src={flutter} alt="Flutter" />
+          <img src={python} alt="Python" />
         </div>
 
         <div class="dev-icons" aria-hidden="true">
@@ -155,12 +163,16 @@ function Experience() {
           <img src={bootstrap} alt="Bootstrap" />
           <img src={tailwind} alt="Tailwind" />
           <img src={react} alt="React" />
+          <img src={next} alt="Next.js" />
           <img src={material} alt="Material" />
-          <img src={express} alt="express" />
+          <img src={redux} alt="Redux" />
+          <img src={graphql} alt="GraphQL" />
           <img src={vue} alt="Vue" />
           <img src={mongodb} alt="MongoDB" />
           <img src={node} alt="Node" />
+          <img src={express} alt="express" />
           <img src={flutter} alt="Flutter" />
+          <img src={python} alt="Python" />
         </div>
       </div>
     </section>
