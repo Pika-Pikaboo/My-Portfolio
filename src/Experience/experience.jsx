@@ -117,35 +117,35 @@ function Experience() {
 
       <div class="marquee">
         <div class="dev-icons">
-          <img src="/image/Dev Icons/html.png" alt="HTML" />
-          <img src="/image/Dev Icons/css.png" alt="CSS" />
-          <img src="/image/Dev Icons/javascript.png" alt="JavaScript" />
-          <img src="/image/Dev Icons/typescript.png" alt="TypeScript" />
-          <img src="/image/Dev Icons/sass.png" alt="SASS" />
-          <img src="/image/Dev Icons/bootstrap.png" alt="Bootstrap" />
-          <img src="/image/Dev Icons/tailwind.png" alt="Tailwind" />
-          <img src="/image/Dev Icons/react.png" alt="React" />
-          <img src="/image/Dev Icons/material-ui.png" alt="Material" />
-          <img src="/image/Dev Icons/express.png" alt="express" />
-          <img src="/image/Dev Icons/vue.png" alt="Vue" />
-          <img src="/image/Dev Icons/mongodb.png" alt="MongoDB" />
-          <img src="/image/Dev Icons/node.png" alt="Node" />
+          <img src="../image/Dev Icons/html.png" alt="HTML" />
+          <img src="../image/Dev Icons/css.png" alt="CSS" />
+          <img src="../image/Dev Icons/javascript.png" alt="JavaScript" />
+          <img src="../image/Dev Icons/typescript.png" alt="TypeScript" />
+          <img src="../image/Dev Icons/sass.png" alt="SASS" />
+          <img src="../image/Dev Icons/bootstrap.png" alt="Bootstrap" />
+          <img src="../image/Dev Icons/tailwind.png" alt="Tailwind" />
+          <img src="../image/Dev Icons/react.png" alt="React" />
+          <img src="../image/Dev Icons/material-ui.png" alt="Material" />
+          <img src="../image/Dev Icons/express.png" alt="express" />
+          <img src="../image/Dev Icons/vue.png" alt="Vue" />
+          <img src="../image/Dev Icons/mongodb.png" alt="MongoDB" />
+          <img src="../image/Dev Icons/node.png" alt="Node" />
         </div>
 
         <div class="dev-icons" aria-hidden="true">
-          <img src="/image/Dev Icons/html.png" alt="HTML" />
-          <img src="/image/Dev Icons/css.png" alt="CSS" />
-          <img src="/image/Dev Icons/javascript.png" alt="JavaScript" />
-          <img src="/image/Dev Icons/typescript.png" alt="TypeScript" />
-          <img src="/image/Dev Icons/sass.png" alt="SASS" />
-          <img src="/image/Dev Icons/bootstrap.png" alt="Bootstrap" />
-          <img src="/image/Dev Icons/tailwind.png" alt="Tailwind" />
-          <img src="/image/Dev Icons/react.png" alt="React" />
-          <img src="/image/Dev Icons/material-ui.png" alt="Material" />
-          <img src="/image/Dev Icons/express.png" alt="express" />
-          <img src="/image/Dev Icons/vue.png" alt="Vue" />
-          <img src="/image/Dev Icons/mongodb.png" alt="MongoDB" />
-          <img src="/image/Dev Icons/node.png" alt="Node" />
+          <img src="../image/Dev Icons/html.png" alt="HTML" />
+          <img src="../image/Dev Icons/css.png" alt="CSS" />
+          <img src="../image/Dev Icons/javascript.png" alt="JavaScript" />
+          <img src="../image/Dev Icons/typescript.png" alt="TypeScript" />
+          <img src="../image/Dev Icons/sass.png" alt="SASS" />
+          <img src="../image/Dev Icons/bootstrap.png" alt="Bootstrap" />
+          <img src="../image/Dev Icons/tailwind.png" alt="Tailwind" />
+          <img src="../image/Dev Icons/react.png" alt="React" />
+          <img src="../image/Dev Icons/material-ui.png" alt="Material" />
+          <img src="../image/Dev Icons/express.png" alt="express" />
+          <img src="../image/Dev Icons/vue.png" alt="Vue" />
+          <img src="../image/Dev Icons/mongodb.png" alt="MongoDB" />
+          <img src="../image/Dev Icons/node.png" alt="Node" />
         </div>
       </div>
     </section>
