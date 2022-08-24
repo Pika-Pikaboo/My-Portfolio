@@ -1,19 +1,19 @@
 import "./experience.css";
 import { BsPatchCheckFill } from "react-icons/bs";
-import html from "../assets/Dev Icons/html.png";
-import css from "../assets/Dev Icons/css.png";
-import sass from "../assets/Dev Icons/sass.png";
-import bootstrap from "../assets/Dev Icons/bootstrap.png";
-import tailwind from "../assets/Dev Icons/tailwind.png";
-import javascript from "../assets/Dev Icons/javascript.png";
-import typescript from "../assets/Dev Icons/typescript.png";
-import react from "../assets/Dev Icons/react.png";
-import material from "../assets/Dev Icons/material-ui.png";
-import express from "../assets/Dev Icons/express.png";
-import vue from "../assets/Dev Icons/vue.png";
-import mongodb from "../assets/Dev Icons/mongodb.png";
-import node from "../assets/Dev Icons/node.png";
-import flutter from "../assets/Dev Icons/flutter.png";
+import html from "../assets/html.png";
+import css from "../assets/css.png";
+import sass from "../assets/sass.png";
+import bootstrap from "../assets/bootstrap.png";
+import tailwind from "../assets/tailwind.png";
+import javascript from "../assets/javascript.png";
+import typescript from "../assets/typescript.png";
+import react from "../assets/react.png";
+import material from "../assets/material-ui.png";
+import express from "../assets/express.png";
+import vue from "../assets/vue.png";
+import mongodb from "../assets/mongodb.png";
+import node from "../assets/node.png";
+import flutter from "../assets/flutter.png";
 
 function Experience() {
   return (
@@ -144,6 +144,7 @@ function Experience() {
           <img src={vue} alt="Vue" />
           <img src={mongodb} alt="MongoDB" />
           <img src={node} alt="Node" />
+          <img src={flutter} alt="Flutter" />
         </div>
 
         <div class="dev-icons" aria-hidden="true">
@@ -160,6 +161,7 @@ function Experience() {
           <img src={vue} alt="Vue" />
           <img src={mongodb} alt="MongoDB" />
           <img src={node} alt="Node" />
+          <img src={flutter} alt="Flutter" />
         </div>
       </div>
     </section>
