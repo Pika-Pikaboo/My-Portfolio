@@ -6,7 +6,7 @@
     display: flex;
     align-items: center;
     gap: var(--gap);
-    max-width: 100%;
+    max-width: 450px;
     margin: 3rem auto;
     padding: 15px 0;
     overflow: hidden;

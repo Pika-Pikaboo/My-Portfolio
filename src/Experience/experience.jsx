@@ -127,41 +127,40 @@ function Experience() {
             </article>
           </div>
         </div>
+      </div>
+      <div class="marquee">
+        <div class="dev-icons">
+          <img src={html} alt="HTML" />
+          <img src={css} alt="CSS" />
+          <img src={javascript} alt="JavaScript" />
+          <img src={typescript} alt="TypeScript" />
+          <img src={sass} alt="SASS" />
+          <img src={bootstrap} alt="Bootstrap" />
+          <img src={tailwind} alt="Tailwind" />
+          <img src={react} alt="React" />
+          <img src={material} alt="Material" />
+          <img src={express} alt="express" />
+          <img src={vue} alt="Vue" />
+          <img src={mongodb} alt="MongoDB" />
+          <img src={node} alt="Node" />
+          <img src={flutter} alt="Flutter" />
+        </div>
 
-        <div class="marquee">
-          <div class="dev-icons">
-            <img src={html} alt="HTML" />
-            <img src={css} alt="CSS" />
-            <img src={javascript} alt="JavaScript" />
-            <img src={typescript} alt="TypeScript" />
-            <img src={sass} alt="SASS" />
-            <img src={bootstrap} alt="Bootstrap" />
-            <img src={tailwind} alt="Tailwind" />
-            <img src={react} alt="React" />
-            <img src={material} alt="Material" />
-            <img src={express} alt="express" />
-            <img src={vue} alt="Vue" />
-            <img src={mongodb} alt="MongoDB" />
-            <img src={node} alt="Node" />
-            <img src={flutter} alt="Flutter" />
-          </div>
-
-          <div class="dev-icons" aria-hidden="true">
-            <img src={html} alt="HTML" />
-            <img src={css} alt="CSS" />
-            <img src={javascript} alt="JavaScript" />
-            <img src={typescript} alt="TypeScript" />
-            <img src={sass} alt="SASS" />
-            <img src={bootstrap} alt="Bootstrap" />
-            <img src={tailwind} alt="Tailwind" />
-            <img src={react} alt="React" />
-            <img src={material} alt="Material" />
-            <img src={express} alt="express" />
-            <img src={vue} alt="Vue" />
-            <img src={mongodb} alt="MongoDB" />
-            <img src={node} alt="Node" />
-            <img src={flutter} alt="Flutter" />
-          </div>
+        <div class="dev-icons" aria-hidden="true">
+          <img src={html} alt="HTML" />
+          <img src={css} alt="CSS" />
+          <img src={javascript} alt="JavaScript" />
+          <img src={typescript} alt="TypeScript" />
+          <img src={sass} alt="SASS" />
+          <img src={bootstrap} alt="Bootstrap" />
+          <img src={tailwind} alt="Tailwind" />
+          <img src={react} alt="React" />
+          <img src={material} alt="Material" />
+          <img src={express} alt="express" />
+          <img src={vue} alt="Vue" />
+          <img src={mongodb} alt="MongoDB" />
+          <img src={node} alt="Node" />
+          <img src={flutter} alt="Flutter" />
         </div>
       </div>
     </section>
