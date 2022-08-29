@@ -1,5 +1,5 @@
 import "./contact.css";
-import { useRef, useDisclosure } from "react";
+import { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import { MdOutlineEmail } from "react-icons/md";
 import { RiMessengerLine } from "react-icons/ri";
@@ -9,17 +9,10 @@ import {
   AlertIcon,
   AlertTitle,
   AlertDescription,
-  CloseButton,
 } from "@chakra-ui/react";
 
 const AlertMessage = () => {
-  const {
-    isOpen: isVisible,
-    onClose,
-    onOpen,
-  } = useDisclosure({ defaultIsOpen: true });
-
-  return isVisible ? (
+  return (
     <Alert
       status="success"
       variant="subtle"
@@ -36,16 +29,7 @@ const AlertMessage = () => {
       <AlertDescription maxWidth="sm">
         Thanks for submitting your message. I will keep in touch with you soon.
       </AlertDescription>
-      <CloseButton
-        alignSelf="flex-start"
-        position="relative"
-        right={-1}
-        top={-1}
-        onClick={onClose}
-      />
     </Alert>
-  ) : (
-    <button onClick={onOpen}>Show Alert</button>
   );
 };
 
