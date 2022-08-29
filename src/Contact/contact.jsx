@@ -1,31 +1,78 @@
 import "./contact.css";
-import { useRef } from "react";
+import { useRef, useDisclosure } from "react";
 import emailjs from "@emailjs/browser";
 import { MdOutlineEmail } from "react-icons/md";
 import { RiMessengerLine } from "react-icons/ri";
 import { BsWhatsapp } from "react-icons/bs";
+import {
+  Alert,
+  AlertIcon,
+  AlertTitle,
+  AlertDescription,
+  CloseButton,
+} from "@chakra-ui/react";
+
+const AlertMessage = () => {
+  const {
+    isOpen: isVisible,
+    onClose,
+    onOpen,
+  } = useDisclosure({ defaultIsOpen: true });
+
+  return isVisible ? (
+    <Alert
+      status="success"
+      variant="subtle"
+      flexDirection="column"
+      alignItems="center"
+      justifyContent="center"
+      textAlign="center"
+      height="200px"
+    >
+      <AlertIcon boxSize="40px" mr={0} />
+      <AlertTitle mt={4} mb={1} fontSize="lg">
+        Form submitted!
+      </AlertTitle>
+      <AlertDescription maxWidth="sm">
+        Thanks for submitting your message. I will keep in touch with you soon.
+      </AlertDescription>
+      <CloseButton
+        alignSelf="flex-start"
+        position="relative"
+        right={-1}
+        top={-1}
+        onClick={onClose}
+      />
+    </Alert>
+  ) : (
+    <button onClick={onOpen}>Show Alert</button>
+  );
+};
 
 function Contact() {
   const form = useRef();
 
-  const sendEmail = (event) => {
-    event.preventDefault();
-    emailjs
-      .sendForm(
-        "service_7dhhtyt",
-        "template_k43w182",
-        form.current,
-        "ZVwxsbMJHLSOHiB68"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
-    event.target.reset();
+  const sendSubmission = () => {
+    const sendEmail = (event) => {
+      event.preventDefault();
+      emailjs
+        .sendForm(
+          "service_7dhhtyt",
+          "template_k43w182",
+          form.current,
+          "ZVwxsbMJHLSOHiB68"
+        )
+        .then(
+          (result) => {
+            console.log(result.text);
+          },
+          (error) => {
+            console.log(error.text);
+          }
+        );
+      event.target.reset();
+    };
+    return <AlertMessage />;
   };
 
   return (
@@ -57,7 +104,7 @@ function Contact() {
           </article>
         </div>
 
-        <form ref={form} onSubmit={sendEmail}>
+        <form ref={form} onSubmit={sendSubmission}>
           <input
             type="text"
             name="name"
